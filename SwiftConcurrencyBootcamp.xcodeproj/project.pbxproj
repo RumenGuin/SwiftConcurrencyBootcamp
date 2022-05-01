@@ -11,6 +11,7 @@
 		35E03AF4281CF28300A36588 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E03AF3281CF28300A36588 /* ContentView.swift */; };
 		35E03AF6281CF28400A36588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35E03AF5281CF28400A36588 /* Assets.xcassets */; };
 		35E03AF9281CF28500A36588 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35E03AF8281CF28500A36588 /* Preview Assets.xcassets */; };
+		35E03B00281CF2B700A36588 /* DoCatchTryThrowBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E03AFF281CF2B700A36588 /* DoCatchTryThrowBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		35E03AF3281CF28300A36588 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		35E03AF5281CF28400A36588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35E03AF8281CF28500A36588 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		35E03AFF281CF2B700A36588 /* DoCatchTryThrowBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchTryThrowBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				35E03AF1281CF28300A36588 /* SwiftConcurrencyBootcampApp.swift */,
 				35E03AF3281CF28300A36588 /* ContentView.swift */,
+				35E03AFF281CF2B700A36588 /* DoCatchTryThrowBootcamp.swift */,
 				35E03AF5281CF28400A36588 /* Assets.xcassets */,
 				35E03AF7281CF28500A36588 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35E03B00281CF2B700A36588 /* DoCatchTryThrowBootcamp.swift in Sources */,
 				35E03AF4281CF28300A36588 /* ContentView.swift in Sources */,
 				35E03AF2281CF28300A36588 /* SwiftConcurrencyBootcampApp.swift in Sources */,
 			);
