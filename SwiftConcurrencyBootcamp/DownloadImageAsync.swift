@@ -8,6 +8,11 @@
 import SwiftUI
 import Combine
 
+
+/*
+ Concurrency is the execution of the multiple instruction sequences at the same time.
+ */
+
 class DownloadImageAsyncImageLoader {
     let url = URL(string: "https://picsum.photos/200")!
     
