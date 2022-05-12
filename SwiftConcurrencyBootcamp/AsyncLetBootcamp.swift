@@ -31,16 +31,16 @@ struct AsyncLetBootcamp: View {
                     do {
                         //all images load at the same time
                         async let fetchImage1 = fetchImage()
-//                        async let fetchImage2 = fetchImage()
-//                        async let fetchImage3 = fetchImage()
-//                        async let fetchImage4 = fetchImage()
-                        async let fetchTitle1 = fetchTitle()
+                        async let fetchImage2 = fetchImage()
+                        async let fetchImage3 = fetchImage()
+                        async let fetchImage4 = fetchImage()
+                        //async let fetchTitle1 = fetchTitle()
                         
                         //fetchTitle does not throw error so we dont need to add 'try'
-                        let (image, title) = await (try fetchImage1, fetchTitle1)
+                        //let (image, title) = await (try fetchImage1, fetchTitle1)
                         
-//                        let (image1, image2, image3, image4) = await (try fetchImage1,try fetchImage2,try fetchImage3,try fetchImage4)
-//                        self.images.append(contentsOf: [image1,image2,image3,image4])
+                        let (image1, image2, image3, image4) = await (try fetchImage1,try fetchImage2,try fetchImage3,try fetchImage4)
+                        self.images.append(contentsOf: [image1,image2,image3,image4])
                         
                         
                         //all images at different time
