@@ -5,6 +5,8 @@
 //  Created by RUMEN GUIN on 08/05/22.
 //
 //when using async await we dont use dispatchqueue
+//asynchronous(means its NOT going to immediately execute and return)
+//synchronous code (immediately execute and return)
 import SwiftUI
 
 class AsyncAwaitBootcampViewModel: ObservableObject {
